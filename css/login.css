@@ -1,0 +1,88 @@
+body{
+	background-image: url("../img/bg-login.png");
+	background-color: #000000;
+}
+
+@font-face{
+    font-family: headFont;
+    src: url(../fonts/gotham-thin-webfont.woff);
+}
+
+@font-face{
+    font-family: bodyFont;
+    src: url(../fonts/GothaLig.woff);
+}
+
+.bar-height{
+	height: 73px;
+}
+
+.center{
+	margin-left: auto !important;
+	margin-right: auto !important;
+	display: block;
+}
+
+#footer-holder{
+	opacity: 0.4;
+}
+
+.margin-top{
+	margin-top: 50px;
+}
+
+.margin-top-big{
+	margin-top: 300px;
+}
+
+.element {
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.textColor{
+	color: #ffffff !important;
+	font-family: headFont !important;
+}
+
+.textGray{
+	color: gray !important;
+}
+
+.bodyFont{
+	font-family: bodyFont !important;
+}
+
+input{
+	background-color: #1A1A1A !important;
+	border: none !important; 
+}
+
+button{
+	background-color: #323232;
+}
+
+button:hover{
+	background-color: #1B1B1B;
+}
+
+#footer-holder{
+	background-color: #262626;
+	width: 100%;
+}
+
+#footer{
+	width: 35%;
+	height: 100%;
+}
+
+#death-holder{
+	background-color: #ffffff;
+}
+
+#death{
+	margin-left: 23%;
+}

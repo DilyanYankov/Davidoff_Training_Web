@@ -1,0 +1,201 @@
+
+body{
+	background-color: #000000;
+}
+
+@font-face{
+    font-family: headFont;
+    src: url(../fonts/gotham-thin-webfont.woff);
+}
+
+.textColor{
+	color: #ffffff !important;
+	font-family: headFont !important;
+
+}
+
+.center{
+	margin: auto;
+	width: 60%;
+}
+
+.z-index-up{
+	z-index: 10;
+}
+
+.test{
+	background-color: red;
+}
+
+.bar-height{
+	height: 73px;
+}
+
+.left-margin{
+	margin-left: 125px !important;
+}
+
+.top-margin{
+	margin-top: 20px;
+}
+
+.element {
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.gradient{
+	background: -webkit-linear-gradient(#303030, #000000);
+	background: -o-linear-gradient(#303030, #000000);
+	background: -moz-linear-gradient(#303030, #000000);
+	background: linear-gradient(#303030, #000000);
+}
+
+.info-panels-height{
+	height: 200px;
+	padding: 0px;
+}
+
+.click-product{
+	width: 200px;
+	height: 440px;
+}
+
+.darken{
+	-webkit-filter: brightness(30%);
+/*	opacity: 0.5;
+    filter: alpha(opacity=40);
+    background-color: #000000;*/
+}
+
+.popUp{
+	z-index: 1 !important;
+}
+
+.hide{
+	visibility: hidden;
+}
+
+.border{
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+}
+
+#product-classic{
+	position: absolute;
+	z-index: -1;
+}
+
+#product-gold{
+	position: absolute;
+	left: 15%;
+	top: 0px;
+	z-index: -2;
+}
+
+#product-blue{
+	position: absolute;
+	left: 30%;
+	top: 0px;
+	z-index: -3;
+}
+
+#product-menthol{
+	position: absolute;
+	left: 45%;
+	top: 0px;
+	z-index: -4;
+}
+
+#product-gold-slim{
+	position: absolute;
+	left: 80%;
+	top: 0px;
+	z-index: -5;
+}
+
+#black-sheet{
+	position: absolute;
+	left: 0px;
+	top: 50%;
+	z-index: 8;
+}
+
+#video-thumb{
+	margin-top: 50% !important;
+}
+
+
+#info-panels{
+	margin-top: 72% !important;
+}
+
+#footer-holder{
+	height: 13%;
+	background-color: #262626;
+}
+
+#footer{
+	height: 100%;
+}
+
+#death-holder{
+	height: 13%;
+	background-color: #ffffff;
+}
+
+#death{
+	margin-left: 23%;
+}
+
+#classic-click{
+	top: 24%;
+	left: 14%;
+	position: absolute;
+	z-index: 999;
+}
+
+#gold-click{
+	position: absolute;
+	left: 24%;
+	top: 24%;
+	z-index: 998;
+}
+
+#blue-click{
+	position: absolute;
+	left: 35%;
+	top: 24%;
+	z-index: 997;
+}
+
+#menthol-click{
+	position: absolute;
+	left: 46%;
+	top: 24%;
+	z-index: 996;
+}
+
+#goldSlim-click{
+	position: absolute;
+	left: 72%;
+	top: 24%;
+	z-index: 995;
+	width: 150px !important;
+	height: 440px !important;
+}
+
+
+
+
+@media screen and (min-width : 1224px){
+	#black-sheet{
+		position: absolute;
+		left: 0px;
+		top: 50%;
+		z-index: 8;
+	}
+}
